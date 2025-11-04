@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>In Loving Memory of Joseph Guthrie</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #0b1a3b, #182e5d, #243b6e);
+      color: #f8f8ff;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 1rem;
+      background: radial-gradient(circle at top, #68a4d9, #243b6e 60%);
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 750px;
+      margin: 2rem auto;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 15px;
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .photo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .photo img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #8ecae6;
+    }
+
+    h2 {
+      color: #a6d1ff;
+      border-bottom: 1px solid #557aa3;
+      padding-bottom: 0.3rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+
+    form {
+      margin-top: 1.5rem;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.8rem;
+      border-radius: 8px;
+      border: none;
+      margin-bottom: 1rem;
+      background-color: rgba(255,255,255,0.15);
+      color: white;
+    }
+
+    input::placeholder, textarea::placeholder {
+      color: #d9e2ec;
+    }
+
+    button {
+      background-color: #8ecae6;
+      color: #0b1a3b;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #a8dadc;
+    }
+
+    .aurora {
+      text-align: center;
+      font-style: italic;
+      color: #b5e3ff;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>In Loving Memory of Joseph Guthrie</h1>
+    <p>1997 – 2025 | Inuvik, Northwest Territories</p>
+  </header>
+
+  <div class="container">
+    <div class="photo">
+      <img src="Joseph Guthrie.jpg" alt="Photo of Joseph Guthrie" />
+    </div>
+
+    <h2>Obituary</h2>
+    <p>
+      Joseph Guthrie, aged 28, of Inuvik, Northwest Territories, passed away peacefully in 2025.
+    </p>
+    <p>
+      Born and raised in Inuvik, Joseph was known for his kind heart, easygoing spirit, and deep love for the North.
+      He had a quiet strength and a thoughtful way of caring for those around him. Whether helping friends, spending
+      time with family, or taking in the peaceful beauty of the land, Joseph found meaning in simple moments and
+      genuine connections.
+    </p>
+    <p>
+      He will be deeply missed by his family, friends, and all who knew him. Joseph’s memory will live on through the
+      stories, laughter, and love he shared with so many during his short but meaningful life.
+    </p>
+
+    <h2>Memorial Service</h2>
+    <p>
+      A memorial gathering will be held in Inuvik to celebrate Joseph’s life, with details to be shared by his family.
+    </p>
+
+    <div class="aurora">
+      <p>May he rest peacefully, surrounded by the northern lights he loved so much.</p>
+    </div>
+
+    <h2>Messages & Memories</h2>
+    <p>Please share your condolences, stories, or photos below.</p>
+
+    <form onsubmit="event.preventDefault(); alert('Thank you for your message. It has been received.');">
+      <input type="text" placeholder="Your Name" required />
+      <textarea rows="4" placeholder="Write your message here..." required></textarea>
+      <button type="submit">Submit Message</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>© 2025 The Guthrie Family | Designed in memory of Joseph Guthrie</p>
+  </footer>
+</body>
+</html>
